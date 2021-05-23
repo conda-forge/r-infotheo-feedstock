@@ -3,7 +3,7 @@ About r-infotheo
 
 Home: http
 
-Package license: GPL (>= 3)
+Package license: GPL-3.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-infotheo-feedstock/blob/master/LICENSE.txt)
 
@@ -170,12 +170,7 @@ Feedstock Maintainers
 =====================
 
 * [@ArneKr](https://github.com/ArneKr/)
-* [@Bgruening](https://github.com/Bgruening/)
-* [@Daler](https://github.com/Daler/)
 * [@FrodePedersen](https://github.com/FrodePedersen/)
-* [@Jdblischak](https://github.com/Jdblischak/)
-* [@Johanneskoester](https://github.com/Johanneskoester/)
 * [@MathiasHaudgaard](https://github.com/MathiasHaudgaard/)
 * [@conda-forge/r](https://github.com/conda-forge/r/)
-* [@dpryan79](https://github.com/dpryan79/)
 
