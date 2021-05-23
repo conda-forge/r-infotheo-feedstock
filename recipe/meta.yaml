@@ -10,15 +10,14 @@ package:
 source:
   fn: infotheo_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/infotheo_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/infotheo/infotheo_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/infotheo_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/infotheo/infotheo_{{ version }}.tar.gz
 
   sha256: 9b47ebc3db5708c88dc014b4ffec6734053a9c255a9241fcede30fec3e63aaa3
 
 build:
   merge_build_host: True  # [win]
   number: 1004
-  skip: true  # [win32]
 
   rpaths:
     - lib/R/lib/
@@ -44,7 +43,7 @@ test:
 
 about:
   home: http
-  license: GPL (>= 3)
+  license: GPL-3.0-or-later
   summary: This package implements various measures of information theory based on several entropy
     estimators.
   license_family: GPL3
@@ -52,11 +51,6 @@ about:
 extra:
    recipe-maintainers:
     - conda-forge/r
-    - dpryan79
     - MathiasHaudgaard
     - FrodePedersen
     - ArneKr
-    - Johanneskoester
-    - Bgruening
-    - Daler
-    - Jdblischak
