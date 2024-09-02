@@ -7,20 +7,24 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-infotheo-feed
 About r-infotheo
 ----------------
 
-Home: http
+Home: https://cran.r-project.org/package=infotheo
 
 Package license: GPL-3.0-or-later
 
 Summary: This package implements various measures of information theory based on several entropy estimators.
+
+Development: https://github.com/cran/infotheo
 
 About r-infotheo
 ----------------
 
-Home: http
+Home: https://cran.r-project.org/package=infotheo
 
 Package license: GPL-3.0-or-later
 
 Summary: This package implements various measures of information theory based on several entropy estimators.
+
+Development: https://github.com/cran/infotheo
 
 Current build status
 ====================
